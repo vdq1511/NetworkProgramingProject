@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Đồ án Lập Trình Mạng\\PROJECT_HBS\\SERVER_prjHBS\\SERVER_HBS\\SERVER_HBS\\SERVER_HBS.csproj": {}
+  },
+  "projects": {
+    "D:\\Đồ án Lập Trình Mạng\\PROJECT_HBS\\SERVER_prjHBS\\SERVER_HBS\\SERVER_HBS\\SERVER_HBS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Đồ án Lập Trình Mạng\\PROJECT_HBS\\SERVER_prjHBS\\SERVER_HBS\\SERVER_HBS\\SERVER_HBS.csproj",
+        "projectName": "SERVER_HBS",
+        "projectPath": "D:\\Đồ án Lập Trình Mạng\\PROJECT_HBS\\SERVER_prjHBS\\SERVER_HBS\\SERVER_HBS\\SERVER_HBS.csproj",
+        "packagesPath": "C:\\Users\\Van Dinh Quoc\\.nuget\\packages\\",
+        "outputPath": "D:\\Đồ án Lập Trình Mạng\\PROJECT_HBS\\SERVER_prjHBS\\SERVER_HBS\\SERVER_HBS\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Van Dinh Quoc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "SuperSimpleTcp": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
